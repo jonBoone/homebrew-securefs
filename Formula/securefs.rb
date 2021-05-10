@@ -1,7 +1,7 @@
 class OsxfuseRequirement < Requirement
   fatal true
 
-  staisfy(build_env: false) { self.class.binary_osxfuse_installed? }
+  satisfy(build_env: false) { self.class.binary_osxfuse_installed? }
 
   def self.binary_osxfuse_installed?
     File.exist?("/usr/local/include/fuse.h") &&

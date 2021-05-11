@@ -20,7 +20,7 @@ class OsxfuseRequirement < Requirement
   end
 
    def message
-    "macFUSE is required to build borgbackup-fuse. Please run `brew install --cask macfuse` first."
+    "macFUSE is required to build securefs. Please run `brew install --cask macfuse` first."
   end
 end
 

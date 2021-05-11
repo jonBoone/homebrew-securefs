@@ -1,9 +1,9 @@
-class OsxfuseRequirement < Requirement
+class MacfuseRequirement < Requirement
   fatal true
 
-  satisfy(build_env: false) { self.class.binary_osxfuse_installed? }
+  satisfy(build_env: false) { self.class.binary_macfuse_installed? }
 
-  def self.binary_osxfuse_installed?
+  def self.binary_macfuse_installed?
     File.exist?("/usr/local/include/fuse.h") &&
       !File.symlink?("/usr/local/include/fuse")
   end
@@ -36,7 +36,7 @@ class Securefs < Formula
   depends_on "cmake" => :build
 
   on_macos do
-    depends_on OsxfuseRequirement => :build
+    depends_on MacfuseRequirement
   end
 
   on_linux do

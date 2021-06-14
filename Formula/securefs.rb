@@ -29,8 +29,7 @@ class Securefs < Formula
   head "https://github.com/netheril96/securefs.git"
   homepage "https://github.com/netheril96/securefs"
   url "https://github.com/netheril96/securefs.git",
-      tag:      "0.11.1",
-      revision: "dfeebf8406871d020848edde668234715356158c"
+      revision: "70d7bddac5516854b4b968ab0994d6d4db0ceca9"
   license "MIT"
   head "https://github.com/netheril96/securefs.git"
 

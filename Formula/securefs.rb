@@ -26,13 +26,12 @@ end
 
 class Securefs < Formula
   desc "Filesystem with transparent authenticated encryption"
-  head "https://github.com/netheril96/securefs.git"
+  head "https://github.com/netheril96/securefs.git", branch: "cryptopp8.5"
   homepage "https://github.com/netheril96/securefs"
   license "MIT"
   url "https://github.com/netheril96/securefs.git"
   version "0.11.1"
 
-  head "https://raw.githubusercontent.com/netheril96/securefs/cryptopp8.5"
 
   depends_on "cmake" => :build
 

@@ -31,8 +31,7 @@ class Securefs < Formula
   license "MIT"
   url "https://github.com/netheril96/securefs.git"
 
-  head "https://github.com/netheril96/securefs.git", 
-    revision: "70d7bddac5516854b4b968ab0994d6d4db0ceca9"
+  head "https://raw.githubusercontent.com/netheril96/securefs/70d7bddac5516854b4b968ab0994d6d4db0ceca9"
 
   depends_on "cmake" => :build
 

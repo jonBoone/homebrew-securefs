@@ -26,7 +26,7 @@ end
 
 class Securefs < Formula
   desc "Filesystem with transparent authenticated encryption"
-  head "https://github.com/netheril96/securefs.git", branch: "apple-m1"
+  head "https://github.com/netheril96/securefs.git", branch: "master"
   homepage "https://github.com/netheril96/securefs"
   license "MIT"
   url "https://github.com/netheril96/securefs.git"
